@@ -1,0 +1,5 @@
+C:\Source\ThomsonReutersMathExpressionEval\MathExpressionEvalHelper\bin\Debug\MathExpressionEvalHelper.dll
+C:\Source\ThomsonReutersMathExpressionEval\MathExpressionEvalHelper\bin\Debug\MathExpressionEvalHelper.pdb
+C:\Source\ThomsonReutersMathExpressionEval\MathExpressionEvalHelper\obj\Debug\MathExpressionEvalHelper.dll
+C:\Source\ThomsonReutersMathExpressionEval\MathExpressionEvalHelper\obj\Debug\MathExpressionEvalHelper.pdb
+C:\Source\ThomsonReutersMathExpressionEval\MathExpressionEvalHelper\obj\Debug\MathExpressionEvalHelper.csprojResolveAssemblyReference.cache
