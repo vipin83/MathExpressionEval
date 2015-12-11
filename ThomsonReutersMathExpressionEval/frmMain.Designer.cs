@@ -62,16 +62,15 @@
             // txtInputExpression
             // 
             this.txtInputExpression.Location = new System.Drawing.Point(26, 67);
-            this.txtInputExpression.Multiline = true;
             this.txtInputExpression.Name = "txtInputExpression";
-            this.txtInputExpression.Size = new System.Drawing.Size(291, 66);
+            this.txtInputExpression.Size = new System.Drawing.Size(291, 20);
             this.txtInputExpression.TabIndex = 2;
             this.txtInputExpression.Text = "(5 + 5) * (3 + 2) -1";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 167);
+            this.label3.Location = new System.Drawing.Point(23, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 13);
             this.label3.TabIndex = 3;
@@ -79,7 +78,7 @@
             // 
             // txtPostFixExpression
             // 
-            this.txtPostFixExpression.Location = new System.Drawing.Point(26, 184);
+            this.txtPostFixExpression.Location = new System.Drawing.Point(26, 146);
             this.txtPostFixExpression.Multiline = true;
             this.txtPostFixExpression.Name = "txtPostFixExpression";
             this.txtPostFixExpression.ReadOnly = true;
@@ -89,7 +88,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(23, 233);
+            this.label4.Location = new System.Drawing.Point(23, 195);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 5;
@@ -98,7 +97,7 @@
             // txtAnswer
             // 
             this.txtAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAnswer.Location = new System.Drawing.Point(26, 249);
+            this.txtAnswer.Location = new System.Drawing.Point(26, 211);
             this.txtAnswer.Name = "txtAnswer";
             this.txtAnswer.ReadOnly = true;
             this.txtAnswer.Size = new System.Drawing.Size(76, 22);
@@ -106,7 +105,7 @@
             // 
             // btnEvaluate
             // 
-            this.btnEvaluate.Location = new System.Drawing.Point(242, 139);
+            this.btnEvaluate.Location = new System.Drawing.Point(242, 101);
             this.btnEvaluate.Name = "btnEvaluate";
             this.btnEvaluate.Size = new System.Drawing.Size(75, 23);
             this.btnEvaluate.TabIndex = 7;
@@ -119,7 +118,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(26, 278);
+            this.label5.Location = new System.Drawing.Point(26, 240);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 15);
             this.label5.TabIndex = 8;
@@ -128,7 +127,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(29, 297);
+            this.label6.Location = new System.Drawing.Point(29, 259);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(317, 52);
             this.label6.TabIndex = 9;
@@ -139,7 +138,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(374, 364);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

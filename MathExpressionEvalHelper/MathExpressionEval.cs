@@ -112,6 +112,12 @@ namespace MathExpressionEvalHelper
                     {
                         tokens.Push(new Parenthesis(ParenthesisType.Close));
                         unaryMinus = false;
+                        unaryMinusBeforeOpeningBracket = false;
+                    }
+                    if (unaryMinus && !unaryMinusBeforeOpeningBracket)
+                    {
+                        tokens.Push(new Parenthesis(ParenthesisType.Close));
+                        unaryMinus = false;
                     }
                 }
                 #endregion
