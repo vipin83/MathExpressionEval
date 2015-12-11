@@ -88,8 +88,7 @@ namespace MathExpressionEvalHelper
                     #endregion
                     
                     //else if (ThisChar == "+") //this is for unary plus 
-
-
+                    
                     tokens.Push(new Operator((OperatorType)Operator.GetOperatorType(ThisChar)));
 
 
